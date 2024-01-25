@@ -12,11 +12,16 @@ submitBtn.on('click', postQuery)
 
 // Function to build URL 
 function buildQuery() {
-  let termVal = term.val();
-  console.log(termVal);
+  // 1. Get all required values (search term and article count)
+  const termVal = term.val();
+  const articleCountVal = 0 // TODO
+  // 2. Get all optional values (start year and end year)
+  const startYearVal = 0  // Todo
+  const endYearVal = 0 // Todo
+  // 3. Build URL 
+
 }
 
-// Figure out how to make certain requests optional
 
 // Function to handle submit button click
 function postQuery(event) {
