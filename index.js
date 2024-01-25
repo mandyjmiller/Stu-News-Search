@@ -15,6 +15,8 @@ function buildQuery() {
 
 }
 
+// Figure out how to make certain requests optional
+
 // Function to handle submit button click
 function postQuery() {
 
