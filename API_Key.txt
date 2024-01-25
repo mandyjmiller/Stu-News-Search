@@ -1,0 +1,3 @@
+FZTMTuVAqygEOhY7xzmuOlAfAo4IeAm4
+
+https://api.nytimes.com/svc/search/v2/articlesearch.json?api-key=${api}&q=${query}&begin_date=${begin-date}&end_date=${end-date}
