@@ -12,17 +12,19 @@ submitBtn.on('click', postQuery)
 
 // Function to build URL 
 function buildQuery() {
-
+  let termVal = term.val();
+  console.log(termVal);
 }
 
 // Figure out how to make certain requests optional
 
 // Function to handle submit button click
-function postQuery() {
-
+function postQuery(event) {
+  event.preventDefault()
   let queryURL = buildQuery()
 
   // Fetch request
+  return
   fetch(queryURL)
   .then(function (response) {
     return response.json();
